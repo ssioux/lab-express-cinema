@@ -1,0 +1,30 @@
+
+<div>
+  <a href="/movies">Go back</a>
+</div>
+
+
+<div class="rowdir">
+
+<div id="text">
+        <div>
+  <img src="{{details.image}}" alt="pokemon" />
+  <h2>{{details.title}}</h2>
+  <p><b>Director: {{details.director}}</b></p>
+        </div>
+
+        <div>
+<ul>
+    {{#each details.stars}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+  <p>{{details.description}}</p>
+    
+    {{#each details.showtimes}}
+  <p>{{this}}</p>
+  {{/each}}
+        </div>
+
+</div>
+<div>
