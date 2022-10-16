@@ -19,22 +19,25 @@ body {
 
 .list {
   display: flex;
-  flex-direction: row;
-  text-align: center;
-}
-
-.rowdir {
-  display: flex;
+  flex-wrap:wrap;
   flex-direction: row;
   
+  text-align: center;
+  gap: 20px;
 }
+
+
+
 
 
 h1 {
   color: white
 }
 #text {
+  display: flex;
+  gap: 40px;
   color: black;
+  margin-top: 30px;
 }
 
 #bg {
